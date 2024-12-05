@@ -11,13 +11,13 @@ FetchContent_MakeAvailable(googletest)
 enable_testing()
 
 add_executable(
-  hello_test
+  osl_test
   test_main.cpp
 )
 target_link_libraries(
-  hello_test
+  osl_test
   GTest::gtest_main
 )
 
 include(GoogleTest)
-gtest_discover_tests(hello_test)
+gtest_discover_tests(osl_test)

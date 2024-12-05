@@ -1,13 +1,14 @@
 #include <raylib.h>
 #include <cstdlib>
 
+
 int main(void)
 {
-    const int screenWidth = 1920;
-    const int screenHeight = 1080;
+    const int screenWidth = 1024;
+    const int screenHeight = 768;
+    const char *title = "OSL Animation Engine";
 
-    InitWindow(screenWidth, screenHeight, "Welcome to Nø̈reng");
-    ToggleFullscreen();
+    InitWindow(screenWidth, screenHeight, title);
 
     Camera camera = {0};
     camera.position = (Vector3){10.0f, 10.0f, 10.0f};
@@ -56,7 +57,7 @@ int main(void)
 
         DrawText("Text 2d should be always on top of the cube", 10, 40, 20, GRAY);
 
-        DrawFPS((0.95 * screenWidth), (0.005 * screenWidth));
+        DrawFPS((0.9 * screenWidth), (0.01 * screenWidth));
 
         EndDrawing();
     }

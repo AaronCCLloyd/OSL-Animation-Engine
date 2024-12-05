@@ -1,3 +1,3 @@
-add_executable(noreng main.cpp)
+add_executable(osl main.cpp)
 
-target_link_libraries(noreng raylib)
+target_link_libraries(osl raylib)
