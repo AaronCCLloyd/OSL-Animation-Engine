@@ -14,7 +14,7 @@ while getopts "br" arg; do
         build
         ;;
     r)
-        ./build/src/noreng
+        ./build/src/osl
         ;;
     *)
         echo "default"
