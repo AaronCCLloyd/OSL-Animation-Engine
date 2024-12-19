@@ -3,6 +3,8 @@
 
 The Open Source Labs Animation Engine, for visualising concepts in computer science, programming and the inner workings of open source software.
 
+![Repository Star History](https://api.star-history.com/svg?repos=AaronCCLloyd/OSL-Animation-Engine&type=Timeline)
+
 ## Usage
 For help on using the build script,
 
